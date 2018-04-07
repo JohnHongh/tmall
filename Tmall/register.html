@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>天猫注册</title>
+		<link href="img/login.ico" rel="shortcut icon" type="image/x-icon">
+		<link title="天猫Tmall.com" href="//g.alicdn.com/mui/global/1.2.35/file/search.xml" type="application/opensearchdescription+xml" rel="search">
+		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+	</head>
+	<body>
+		<!--进入页面弹窗-->
+		<div id="tan_box">
+			<div class="top">
+				<h3>注册协议</h3>
+				<a href="index.html" class="iconfont">&#xe6dd;</a>
+			</div>
+			<div class="mid">    
+				<p><strong class="noline">【审慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong>请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
+				
+				<p>1、<strong>与您约定免除或限制责任的条款；</strong></p>
+				
+				<p>2、<strong>与您约定法律适用和管辖的条款；</strong></p>
+				
+				<p>3、<strong>其他以粗体下划线标识的重要条款。</strong></p>
+				
+				<p>如您对协议有任何疑问，可向平台客服咨询。</p>
+				
+				<p><strong class="noline">【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+				
+				<p><strong>阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong></p>
+				
+				<p><a href="#">《淘宝平台服务协议》</a></p>
+				
+				<p><a href="#">《法律声明及隐私权政策》</a></p>
+				
+				<p><a href="#">《支付宝服务协议》</a></p>
+			</div>
+			<div class="bot">
+				<button class="btn-in">同意协议</button>
+			</div>
+		</div>
+		
+		<!--头部-->
+		<div id="header">
+			<div class="wrap">
+				<a href="index.html"><div class="logo"><img src="img/logo2.png"></div></a>
+				<div class="land">已有账号？<a href="login.html">请登录</a></div>
+			</div>
+		</div>
+		<div class="border"></div>
+		
+		<!--内容-->
+		<div id="main">
+			<div class="wrap">
+				<div class="content">
+					<div class="con-le">
+						<form action="php/register.php" method="post">
+							<p><span>用　户　名</span><input type="text" name="username" value="您的账户名和登录名" />&nbsp;&nbsp;&nbsp;<i></i></p>
+							<div><em></em></div>
+							<p class="po"><span>设 置 密 码</span><b>建议至少使用两种字符组合</b><input type="password" name="password" value="" />&nbsp;&nbsp;&nbsp;<i></i></p>
+							<div><strong id="check"></strong><em></em></div>
+							<p class="po"><span>确 认 密 码</span><b>请再次输入密码</b><input type="password" name="repass" value="" />&nbsp;&nbsp;&nbsp;<i></i></p>
+							<div><em></em></div>
+							<p><span id="num">中国 0086 ∨</span><input type="text" name="phone" value="建议使用常用手机" />&nbsp;&nbsp;&nbsp;<i></i></p>
+							<div><em></em></div>
+							<p><input type="submit" value="立即注册" name="submit" id="btn"/></p>
+						</form>
+					</div>
+					
+					<div class="con-ri">
+						<div class="company">
+							<a href="#">
+								<i class="iconfont icon1">&#xe696;</i>
+								<span>企业用户注册</span>
+							</a>
+						</div>
+						<div class="nation">
+							<a href="#">
+								<i class="iconfont icon2">&#xe672;</i>
+								<span>INTERNATIONAL
+									  CUSTOMERS</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!--尾部-->
+		<div id="footer">
+			<div class="wrap">
+				<div class="links">
+			        <a href="#">关于我们</a>|
+			        <a href="#">联系我们</a>|
+			        <a href="#">人才招聘</a>|
+			        <a href="#">商家入驻</a>|
+			        <a href="#">广告服务</a>|
+			        <a href="#">手机天猫</a>|
+			        <a href="#">友情链接</a>|
+			        <a href="#">销售联盟</a>|
+			        <a href="#">天猫社区</a>|
+			        <a href="#">天猫公益</a>|
+			        <a href="#">English Site</a>
+			    </div>
+			    <div class="copy">
+			        Copyright©2004-2016&nbsp;&nbsp;天猫tmall.com&nbsp;版权所有
+			    </div>
+		    </div>
+		</div>
+		
+		
+		<script src="js/jquery-1.11.3.js" ></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+</html>
